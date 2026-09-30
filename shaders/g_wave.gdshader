@@ -2,7 +2,7 @@ shader_type spatial;
 render_mode depth_draw_always;
 uniform vec3 color: source_color;
 uniform float sampling_distance = 0.01;
-uniform sampler2D displacement_map: repeat_disable;
+uniform sampler2D displacement_map: repeat_enable;
 uniform sampler2D foam_map: repeat_disable;
 uniform sampler2D depth_texture: hint_depth_texture, repeat_disable, filter_nearest;
 uniform sampler2D screen_texture: hint_screen_texture, repeat_disable;

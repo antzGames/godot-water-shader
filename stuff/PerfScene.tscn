@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://dh5egd5chjbg4"]
+
+[ext_resource type="Script" uid="uid://cypu2k3s10kfq" path="res://stuff/mesh_help.gd" id="1_be3v4"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_h18h7"]
+subdivide_width = 128
+subdivide_depth = 128
+
+[node name="Node3D" type="Node3D" unique_id=1127645799]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="." unique_id=985592378]
+mesh = SubResource("PlaneMesh_h18h7")
+script = ExtResource("1_be3v4")

@@ -1,5 +1,5 @@
 shader_type canvas_item;
-uniform sampler2D displacement_map;
+uniform sampler2D displacement_map: repeat_enable;
 uniform sampler2D sea_foam: repeat_enable;
 uniform sampler2D noise;
 uniform sampler2D depth_top;
