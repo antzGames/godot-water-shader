@@ -105,7 +105,7 @@ resource_local_to_scene = true
 shader = ExtResource("6_xb4w7")
 shader_parameter/current_foam = SubResource("ViewportTexture_d0eyj")
 shader_parameter/history_foam = SubResource("ViewportTexture_4s5vi")
-shader_parameter/delta = 0.00865233333333333
+shader_parameter/delta = 0.007358666666666664
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_yygsm"]
 viewport_path = NodePath("FoamSubViewport")
@@ -118,7 +118,7 @@ resource_local_to_scene = true
 shader = ExtResource("6_xb4w7")
 shader_parameter/current_foam = SubResource("ViewportTexture_yygsm")
 shader_parameter/history_foam = SubResource("ViewportTexture_u5eeg")
-shader_parameter/delta = 0.00865233333333333
+shader_parameter/delta = 0.007358666666666664
 
 [sub_resource type="QuadMesh" id="QuadMesh_l5no5"]
 size = Vector2(10, 10)
@@ -234,6 +234,12 @@ surface_material_override/0 = SubResource("ShaderMaterial_5me7w")
 
 [node name="Sphere" type="MeshInstance3D" parent="." unique_id=547641031]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.4832201, -0.38131583, -0.062363148)
+layers = 3
+mesh = SubResource("SphereMesh_l5no5")
+surface_material_override/0 = SubResource("ShaderMaterial_mvh63")
+
+[node name="Sphere2" type="MeshInstance3D" parent="." unique_id=1787091281]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.134909, -0.38131583, -0.062363148)
 layers = 3
 mesh = SubResource("SphereMesh_l5no5")
 surface_material_override/0 = SubResource("ShaderMaterial_mvh63")
