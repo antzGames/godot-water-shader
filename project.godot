@@ -19,6 +19,11 @@ config/icon="res://stuff/icon.svg"
 
 window/vsync/vsync_mode=0
 
+[editor]
+
+movie_writer/video_quality=0.9
+movie_writer/movie_file="C:/Users/Emil/Desktop/water_ex.avi"
+
 [input]
 
 Left={
@@ -55,8 +60,7 @@ common/physics_interpolation=true
 [rendering]
 
 rendering_device/driver.windows="d3d12"
-lights_and_shadows/directional_shadow/soft_shadow_filter_quality=3
-anti_aliasing/quality/msaa_3d=2
+textures/vram_compression/import_etc2_astc=true
 occlusion_culling/size/mode=0
 occlusion_culling/size/viewport_height=1080
 occlusion_culling/size/viewport_width=1920
