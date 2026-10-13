@@ -97,7 +97,7 @@ resource_local_to_scene = true
 shader = ExtResource("6_xb4w7")
 shader_parameter/current_foam = SubResource("ViewportTexture_d0eyj")
 shader_parameter/history_foam = SubResource("ViewportTexture_4s5vi")
-shader_parameter/delta = 0.008644888888888888
+shader_parameter/delta = 0.008755888888888888
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_yygsm"]
 viewport_path = NodePath("FoamSubViewport")
@@ -110,7 +110,7 @@ resource_local_to_scene = true
 shader = ExtResource("6_xb4w7")
 shader_parameter/current_foam = SubResource("ViewportTexture_yygsm")
 shader_parameter/history_foam = SubResource("ViewportTexture_u5eeg")
-shader_parameter/delta = 0.008644888888888888
+shader_parameter/delta = 0.008755888888888888
 
 [sub_resource type="QuadMesh" id="QuadMesh_l5no5"]
 size = Vector2(10, 10)
@@ -227,40 +227,5 @@ surface_material_override/0 = SubResource("ShaderMaterial_5me7w")
 
 [node name="Sphere" type="MeshInstance3D" parent="." unique_id=547641031]
 layers = 3
-mesh = SubResource("SphereMesh_l5no5")
-surface_material_override/0 = SubResource("ShaderMaterial_mvh63")
-
-[node name="Sphere2" type="MeshInstance3D" parent="." unique_id=1438098008]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.179834, -1.3567486)
-mesh = SubResource("SphereMesh_l5no5")
-surface_material_override/0 = SubResource("ShaderMaterial_mvh63")
-
-[node name="Sphere3" type="MeshInstance3D" parent="." unique_id=2067818931]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4.434368, -1.3567486)
-mesh = SubResource("SphereMesh_l5no5")
-surface_material_override/0 = SubResource("ShaderMaterial_mvh63")
-
-[node name="Sphere4" type="MeshInstance3D" parent="." unique_id=1835198479]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -6.786396, -1.3567486)
-mesh = SubResource("SphereMesh_l5no5")
-surface_material_override/0 = SubResource("ShaderMaterial_mvh63")
-
-[node name="Sphere5" type="MeshInstance3D" parent="." unique_id=960774782]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -3.0938344, 0.7515464)
-mesh = SubResource("SphereMesh_l5no5")
-surface_material_override/0 = SubResource("ShaderMaterial_mvh63")
-
-[node name="Sphere6" type="MeshInstance3D" parent="." unique_id=188103248]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5.3483686, 0.7515464)
-mesh = SubResource("SphereMesh_l5no5")
-surface_material_override/0 = SubResource("ShaderMaterial_mvh63")
-
-[node name="Sphere7" type="MeshInstance3D" parent="." unique_id=904885782]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -7.7003965, 0.7515464)
-mesh = SubResource("SphereMesh_l5no5")
-surface_material_override/0 = SubResource("ShaderMaterial_mvh63")
-
-[node name="Sphere8" type="MeshInstance3D" parent="." unique_id=873725604]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -9.077492, -1.4054947)
 mesh = SubResource("SphereMesh_l5no5")
 surface_material_override/0 = SubResource("ShaderMaterial_mvh63")

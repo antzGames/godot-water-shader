@@ -4,15 +4,16 @@ importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxg8sejji6v6u"
 path.s3tc="res://.godot/imported/sea_foam_seamless_texture.png-fda852a06a6cf7bbc364cef0a0c25341.s3tc.ctex"
+path.etc2="res://.godot/imported/sea_foam_seamless_texture.png-fda852a06a6cf7bbc364cef0a0c25341.etc2.ctex"
 metadata={
-"imported_formats": ["s3tc_bptc"],
+"imported_formats": ["s3tc_bptc", "etc2_astc"],
 "vram_texture": true
 }
 
 [deps]
 
 source_file="res://stuff/sea_foam_seamless_texture.png"
-dest_files=["res://.godot/imported/sea_foam_seamless_texture.png-fda852a06a6cf7bbc364cef0a0c25341.s3tc.ctex"]
+dest_files=["res://.godot/imported/sea_foam_seamless_texture.png-fda852a06a6cf7bbc364cef0a0c25341.s3tc.ctex", "res://.godot/imported/sea_foam_seamless_texture.png-fda852a06a6cf7bbc364cef0a0c25341.etc2.ctex"]
 
 [params]
 
