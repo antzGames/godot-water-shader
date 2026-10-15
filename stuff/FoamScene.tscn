@@ -45,9 +45,6 @@ viewport_path = NodePath("BottomDepth")
 [sub_resource type="ViewportTexture" id="ViewportTexture_xb4w7"]
 viewport_path = NodePath("TopDepth")
 
-[sub_resource type="ViewportTexture" id="ViewportTexture_bdn0s"]
-viewport_path = NodePath("DisplacementSubViewport")
-
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_udkvx"]
 resource_local_to_scene = true
 shader = ExtResource("3_bdn0s")
@@ -62,8 +59,6 @@ size = Vector2(10, 10)
 subdivide_width = 512
 subdivide_depth = 512
 
-[sub_resource type="ViewportTexture" id="ViewportTexture_dpuiu"]
-viewport_path = NodePath("DisplacementSubViewport")
 
 [sub_resource type="ViewportTexture" id="ViewportTexture_joegw"]
 viewport_path = NodePath("HistoryB")
@@ -136,18 +131,6 @@ shadow_enabled = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=17822797]
 environment = SubResource("Environment_jfska")
-
-[node name="DisplacementSubViewport" type="SubViewport" parent="." unique_id=1272659432]
-use_hdr_2d = true
-size = Vector2i(1024, 1024)
-
-[node name="ColorRect" type="ColorRect" parent="DisplacementSubViewport" unique_id=417666503]
-material = SubResource("ShaderMaterial_yhtth")
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
 
 [node name="FoamSubViewport" type="SubViewport" parent="." unique_id=1766237538]
 size = Vector2i(2048, 2048)
