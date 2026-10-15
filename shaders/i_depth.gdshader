@@ -1,6 +1,6 @@
 shader_type spatial;
 render_mode unshaded, fog_disabled, depth_draw_never, depth_test_disabled;
-uniform sampler2D depth_texture: hint_depth_texture;
+uniform sampler2D depth_texture: hint_depth_texture, filter_nearest;
 
 void fragment() {
 	float depth = texture(depth_texture, SCREEN_UV).r;
