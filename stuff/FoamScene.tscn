@@ -48,7 +48,6 @@ viewport_path = NodePath("TopDepth")
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_udkvx"]
 resource_local_to_scene = true
 shader = ExtResource("3_bdn0s")
-shader_parameter/displacement_map = SubResource("ViewportTexture_bdn0s")
 shader_parameter/sea_foam = ExtResource("4_s8har")
 shader_parameter/noise = SubResource("NoiseTexture2D_vvno1")
 shader_parameter/depth_top = SubResource("ViewportTexture_xb4w7")
@@ -75,7 +74,6 @@ render_priority = 0
 shader = ExtResource("5_xb4w7")
 shader_parameter/color = Color(0, 0.21568628, 0.25490198, 1)
 shader_parameter/sampling_distance = 0.01
-shader_parameter/displacement_map = SubResource("ViewportTexture_dpuiu")
 shader_parameter/foam_map = SubResource("ViewportTexture_joegw")
 shader_parameter/absorption_strength = 1.25
 shader_parameter/color_absorption = Vector3(1.3, 0.4, 0.6)
